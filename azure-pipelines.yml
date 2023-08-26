@@ -23,8 +23,11 @@ steps:
 
 - task: CopyFiles@2
   inputs:
+    SourceFolder: '$(agent.builddirectory)'
     Contents: '**/.war'
     TargetFolder: '$(build.artifactstagingdirectory)'
+    retryCount: '5'
+    delayBetweenRetries: '2000'
     
 - task: PublishBuildArtifacts@1
   inputs:
