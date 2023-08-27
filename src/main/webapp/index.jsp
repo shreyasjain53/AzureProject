@@ -72,6 +72,7 @@ footer {
 <body>
 
 	<h2>Welcome to my page</h2>
+	<h2>This website is hosted on the apache tomcat server which is om linux machine</h2>
 	<p>Here we will learn the complete things on how we can deploy the
 		war files into the server.</p>
 	<p>To deploy a WAR (Web Application Archive) file on a server like
