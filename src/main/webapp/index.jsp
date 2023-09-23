@@ -4,6 +4,12 @@
 <title>Shreyas Jain</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+	rel="stylesheet">
+<script
+	src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 <style>
 * {
 	box-sizing: border-box;
@@ -11,6 +17,7 @@
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
+	position: relative
 }
 
 /* Style the header */
@@ -54,8 +61,9 @@ section::after {
 
 /* Style the footer */
 footer {
-	background-color: #ff6347;
-	padding: 10px;
+	background-color: #0d6efd;
+	padding-top: 3px;
+	padding-bottom: 3px;
 	text-align: center;
 	color: white;
 }
@@ -69,46 +77,51 @@ footer {
 }
 </style>
 </head>
-<body>
+<body >
 
-	<h2>Welcome to my page</h2>
-	<h2>This website is hosted on the apache tomcat server which is om linux machine</h2>
-	<p>Here we will learn the complete things on how we can deploy the
-		war files into the apache tom cat server.</p>
-	<p>To deploy a WAR (Web Application Archive) file on a server like
-		Apache Tomcat, place the WAR file in the server's designated
-		deployment directory, and the server will automatically extract and
-		host the web application.</p>
-	<p>Once the WAR file is deployed, the server initializes the web
-		application, setting up its resources and components, making it
-		accessible via its assigned URL.</p>
+	<div class="container-fluid p-2 bg-primary text-white text-center">
+		<h1>Shreyas Kumar P</h1>
+		<p>This website is hosted on the apache tomcat server which is on
+			linux machine. Here we will learn the complete things on how we can
+			deploy the war files to the apache tom cat server.To deploy a WAR
+			(Web Application Archive) file on a server like Apache Tomcat, place
+			the WAR file in the server's designated deployment directory, and the
+			server will automatically extract and host the web application. Once
+			the WAR file is deployed, the server initializes the web application,
+			setting up its resources and components, making it accessible via its
+			assigned URL.</p>
+	</div>
 
-	<header>
-		<h2>Personal Profile.</h2>
-	</header>
-
-	<section>
-		<nav>
-			<ul>
-				<li><a href="https://github.com/shreyasjain53">GitHub</a></li>
-				<li><a href="https://www.linkedin.com/in/shreyas-jain-83blr/">Linkedin</a></li>
-			</ul>
-		</nav>
-
-		<article>
-			<h1>GitHub</h1>
-			<p>My GitHub profile showcases my projects and contributions,
-				reflecting my coding interests and expertise through a collection of
-				repositories.</p>
-		</article>
-		<article>
-			<h1>Linkedin</h1>
-			<p>QA Engineer at OTS Solutions, I automate and manually test web
-				applications using Selenium Web Driver and Java. I have 3 years of
-				experience in quality assurance testing, focusing on functional,
-				regression, and UAT testing.</p>
-		</article>
-	</section>
+	<div class="container mt-2">
+		<div class="row">
+			<div class="col-sm-4">
+				<h3>
+					<a href="https://github.com/shreyasjain53">GitHub</a>
+				</h3>
+				<p>My GitHub profile showcases my projects and contributions,
+					reflecting my coding interests and expertise through a collection
+					of repositories.</p>
+			</div>
+			<div class="col-sm-4">
+				<h3>
+					<a href="https://www.linkedin.com/in/shreyasjain53/">Linkedin</a>
+				</h3>
+				<p>QA Engineer at OTS Solutions, I automate and manually test
+					web applications using Selenium Web Driver and Java. I have 3 years
+					of experience in quality assurance testing, focusing on functional,
+					regression, and UAT testing.</p>
+			</div>
+			<div class="col-sm-4">
+				<h3>
+					<a href="https://leetcode.com/shreyasjain83/">Leetcode</a>
+				</h3>
+				<p>LeetCode is an online platform offering coding challenges and
+					interview preparation resources for software engineers and
+					developers. The service provides coding and algorithmic problems
+					intended for users to practice coding.</p>
+			</div>
+		</div>
+	</div>
 
 	<footer>
 		<p>shreyasjain83@gmail.com</p>
