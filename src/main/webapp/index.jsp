@@ -80,7 +80,7 @@ footer {
 <body >
 
 	<div class="container-fluid p-2 bg-primary text-white text-center">
-		<h1>Shreyas Kumar P</h1>
+		<h1>Shreyas Jain</h1>
 		<p>This website is hosted on the apache tomcat server which is on
 			linux machine. Here we will learn the complete things on how we can
 			deploy the war files to the apache tom cat server.To deploy a WAR
